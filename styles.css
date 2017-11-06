@@ -1,0 +1,116 @@
+body {
+    position: relative;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+}
+
+#status {
+    position: absolute;
+    top: 5rem;
+		left: 50%;
+		transform: translateX(-50%);
+    min-width: 400px;
+    margin: 0;
+		text-align: center;
+}
+
+.dice {
+    width: 32px;
+    float: left;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.dice-roll {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+h3 {
+    color: black;
+    text-align: center;
+
+}
+.jumbotron {
+    top: 50vw;
+    background-image: url("images/background2.jpg");
+    background-size: 100%;
+    min-height: 800px;
+    text-align; center;
+}
+
+.jumbotron2 {
+    top: 50vw;
+    background-image: url("images/homepageOne.jpg");
+    background-size: 100%;
+    min-height: 700px;
+    text-align; center;
+}
+.paragraphMain {
+    color: white;
+    font-size: 250%;
+}
+.jumbotron3 {
+    top: 50vw;
+    background-image: url("images/background3.jpg");
+    background-size: 100%;
+    min-height: 700px;
+    text-align; center;
+}
+.jumbotron4 {
+    top: 50vw;
+    background-image: url("images/zombieWoods.jpg");
+    background-size: 100%;
+    min-height: 700px;
+    text-align; center;
+}
+.jumbotron5 {
+    top: 50vw;
+    background-image: url("images/killingZombie.jpg");
+    background-size: 100%;
+    min-height: 700px;
+    text-align; center;
+}
+.jumbotron6 {
+    top: 50vw;
+    background-image: url("images/background13.jpg");
+    background-size: 100%;
+    min-height: 700px;
+    text-align; center;
+}
+.jumbotron7 {
+    top: 50vw;
+    background-image: url("images/zombieWins.jpg");
+    background-size: 100%;
+    min-height: 700px;
+    text-align; center;
+}
